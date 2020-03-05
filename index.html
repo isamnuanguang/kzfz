@@ -262,7 +262,7 @@
 
             let scrollFlag = true;
             function HomeAdRevenueShow() {
-                if ($('.HomeAdRevenue').offset()['top'] - $('.HomeAdRevenue').height() < document.documentElement.scrollTop && scrollFlag) {
+                if ($('.HomeAdRevenue').offset()['top'] - $('.HomeAdRevenue').height()*1.5 < document.documentElement.scrollTop && scrollFlag) {
                     $(".HomeAdRevenue .main").css({'transform': 'translateY(0)', 'opacity': 1});
                     scrollFlag = false;
                 } else {
@@ -271,7 +271,7 @@
             }
             let adScrollFlag = true;
             function HomeAdStyleShow() {
-                if ($('.HomeAdStyle').offset()['top'] - $('.HomeAdStyle').height() < document.documentElement.scrollTop && adScrollFlag) {
+                if ($('.HomeAdStyle').offset()['top'] - $('.HomeAdStyle').height()*1.5 < document.documentElement.scrollTop && adScrollFlag) {
                     $('.HomeAdStyle .ad').eq(0).addClass('active').siblings('.ad').removeClass('active');
                     $('.phone>div').eq(0).show().siblings('div').hide();
                     $('.phone .select').eq(0).css({"display":"block", "top": 70, "left": 0,}).siblings('.select').hide();
