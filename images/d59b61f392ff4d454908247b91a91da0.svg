@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="21.6401408%" y1="0%" x2="60.8785834%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ED2642" offset="0%"></stop>
+            <stop stop-color="#FF6A3A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-1154.000000, -264.000000)">
+            <g id="Group-7" transform="translate(1154.000000, 264.000000)">
+                <g id="Group-5">
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="88" height="88"></rect>
+                    <g id="Group-Copy-7" transform="translate(10.000000, 7.000000)">
+                        <rect id="Rectangle-Copy-8" stroke="#824040" fill="#FFFFFF" x="0.5" y="0.5" width="38.11" height="72.33" rx="1"></rect>
+                        <rect id="Rectangle-Copy-10" stroke="#824040" x="5.5" y="5.5" width="28.3333333" height="50.3333333" rx="1"></rect>
+                        <rect id="Rectangle-Copy-10" fill-opacity="0.177491" fill="#F23340" x="23.2222222" y="7.66666667" width="12.2222222" height="56.2222222" rx="1.22222222"></rect>
+                        <rect id="Rectangle-Copy-10" stroke="#824040" fill="#FFFFFF" x="28.6111111" y="3.27777778" width="38.1111111" height="57.6666667" rx="1"></rect>
+                        <rect id="Rectangle-Copy-10" stroke="#824040" x="34.7222222" y="46.0555556" width="25.8888889" height="6.33333333" rx="0.5"></rect>
+                        <rect id="Rectangle-Copy-23" fill="url(#linearGradient-1)" x="34.2222222" y="18.6666667" width="26.8888889" height="17.1111111" rx="0.5"></rect>
+                        <path d="M48.6845579,25.9990591 L50.2155051,28.2954799 C50.3652774,28.5201384 50.3045702,28.8236745 50.0799117,28.9734468 C49.9996032,29.0269859 49.9052439,29.0555556 49.808725,29.0555556 L46.7468306,29.0555556 C46.4768247,29.0555556 46.2579417,28.8366725 46.2579417,28.5666667 C46.2579417,28.4701478 46.2865114,28.3757885 46.3400504,28.2954799 L47.8709976,25.9990591 C48.0207699,25.7744006 48.3243061,25.7136934 48.5489645,25.8634657 C48.6026701,25.8992694 48.6487542,25.9453535 48.6845579,25.9990591 Z" id="Triangle" fill="#FFFFFF" transform="translate(48.277778, 27.222222) rotate(90.000000) translate(-48.277778, -27.222222) "></path>
+                        <circle id="Oval" stroke="#824040" cx="19.0555556" cy="64.0555556" r="3.05555556"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

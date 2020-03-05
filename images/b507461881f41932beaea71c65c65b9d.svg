@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="29.1834808%" y1="0%" x2="68.687048%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ED2642" offset="0%"></stop>
+            <stop stop-color="#FF6A3A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-1298.000000, -264.000000)">
+            <g id="Group-Copy-11" transform="translate(1298.000000, 264.000000)">
+                <g id="Group-Copy-9">
+                    <g id="分组-3" transform="translate(10.000000, 7.000000)">
+                        <g id="Group-Copy-2">
+                            <rect id="Rectangle-Copy-8" stroke="#824040" fill="#FFFFFF" x="0.5" y="0.5" width="38.11" height="72.33" rx="1"></rect>
+                            <rect id="Rectangle-Copy-10" stroke="#824040" x="5.5" y="5.5" width="28.3333333" height="50.3333333" rx="1.22222222"></rect>
+                            <rect id="Rectangle-Copy-10" fill-opacity="0.177491" fill="#F23340" x="24.2222222" y="7.66666667" width="12.2222222" height="56.2222222" rx="1.22222222"></rect>
+                            <rect id="Rectangle-Copy-10" stroke="#824040" fill="#FFFFFF" x="29.6111111" y="3.27777778" width="38.1111111" height="57.6666667" rx="1"></rect>
+                            <rect id="Rectangle-Copy-10" fill="url(#linearGradient-1)" x="35.2222222" y="45.5555556" width="26.8888889" height="7.33333333" rx="0.5"></rect>
+                            <rect id="Rectangle-Copy-23" stroke="#824040" x="35.7222222" y="15.1666667" width="25.8888889" height="26.1111111" rx="0.5"></rect>
+                            <circle id="Oval" stroke="#824040" cx="20.0555556" cy="64.0555556" r="3.05555556"></circle>
+                        </g>
+                        <path d="M36.4444444,8.66666667 L48.6666667,8.66666667" id="直线-2" stroke="#824040" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

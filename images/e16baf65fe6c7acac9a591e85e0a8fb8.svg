@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>分组 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="21.6401408%" y1="0%" x2="60.8785834%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ED2642" offset="0%"></stop>
+            <stop stop-color="#FF6A3A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-866.000000, -264.000000)">
+            <g id="分组-5" transform="translate(866.000000, 264.000000)">
+                <g id="分组-4">
+                    <g id="Group-36-Copy-4">
+                        <g id="Group-6">
+                            <rect id="Rectangle-Copy-18" stroke="#824040" fill="#FFFFFF" x="11.7222222" y="7.83333333" width="38.1111111" height="72.3333333" rx="1"></rect>
+                            <rect id="Rectangle-Copy-19" stroke="#824040" x="16.6111111" y="12.7222222" width="28.3333333" height="50.3333333" rx="1"></rect>
+                            <path d="M35.2222222,15 L45.4444444,15 C45.9967292,15 46.4444444,15.4477153 46.4444444,16 L46.4444444,69.3333333 C46.4444444,69.8856181 45.9967292,70.3333333 45.4444444,70.3333333 L35.2222222,70.3333333 C34.6699375,70.3333333 34.2222222,69.8856181 34.2222222,69.3333333 L34.2222222,16 C34.2222222,15.4477153 34.6699375,15 35.2222222,15 Z" id="Rectangle-Copy-10" fill-opacity="0.137491" fill="#F23340"></path>
+                            <rect id="Rectangle-Copy-20" stroke="#824040" fill="#FFFFFF" x="39.6111111" y="10.6111111" width="38.1111111" height="57.67" rx="1"></rect>
+                            <rect id="Rectangle-Copy-23" fill="url(#linearGradient-1)" x="45.2222222" y="26" width="26.8888889" height="17.1111111" rx="0.5"></rect>
+                            <rect id="Rectangle-Copy-23" stroke="#824040" x="45.7222222" y="48.5" width="11.2222222" height="8.77777778" rx="0.5"></rect>
+                            <circle id="Oval-Copy-2" stroke="#824040" cx="30.1666667" cy="71.5" r="3.05555556"></circle>
+                        </g>
+                    </g>
+                    <path d="M46,17.5 L57,17.5" id="路径-copy-11" stroke="#824040" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M60,52.5 L68,52.5" id="路径-copy-12" stroke="#824040" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M60,48.5 L68,48.5" id="路径-copy-13" stroke="#824040" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M60,56.5 L72.4609375,56.5" id="路径-copy-14" stroke="#824040" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

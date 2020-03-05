@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="21.6401408%" y1="0%" x2="60.8785834%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#ED2642" offset="0%"></stop>
+            <stop stop-color="#FF6A3A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-1010.000000, -264.000000)">
+            <g id="Group-Copy-10" transform="translate(1010.000000, 264.000000)">
+                <g id="Group-Copy-8">
+                    <rect id="Rectangle-Copy-9" stroke="#824040" fill="#FFFFFF" x="12.7222222" y="7.83333333" width="38.1111111" height="72.3333333" rx="1.22222222"></rect>
+                    <rect id="Rectangle-Copy-10" stroke="#824040" x="17.6111111" y="12.7222222" width="28.3333333" height="50.3333333" rx="1.22222222"></rect>
+                    <rect id="Rectangle-Copy-10" fill-opacity="0.18" fill="#F23340" x="35.2222222" y="14.6666667" width="12.2222222" height="55.6666667" rx="1.22222222"></rect>
+                    <rect id="Rectangle-Copy-10" fill="url(#linearGradient-1)" x="40.1111111" y="9.77777778" width="39.1111111" height="58.67" rx="1"></rect>
+                    <circle id="Oval" stroke="#824040" cx="31.1666667" cy="71.5" r="3.05555556"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="59.6666667" cy="40.3333333" r="11"></circle>
+                    <path d="M61.7368872,36.8012417 L66.0437507,43.6922233 C66.336461,44.1605598 66.1940878,44.7775102 65.7257513,45.0702205 C65.5668197,45.1695528 65.3831721,45.2222222 65.1957524,45.2222222 L56.5820254,45.2222222 C56.0297407,45.2222222 55.5820254,44.774507 55.5820254,44.2222222 C55.5820254,44.0348025 55.6346949,43.8511549 55.7340271,43.6922233 L60.0408906,36.8012417 C60.3336009,36.3329052 60.9505513,36.190532 61.4188878,36.4832424 C61.547657,36.5637231 61.6564065,36.6724726 61.7368872,36.8012417 Z" id="Triangle" fill="url(#linearGradient-1)" transform="translate(60.888889, 40.333333) rotate(90.000000) translate(-60.888889, -40.333333) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
