@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta content="width=device-width,viewport-fit=cover,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" name="viewport">
     <title>客至方舟</title>
-    <!-- <script src="./images/hm.js"></script> -->
     <link href="css/style1.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <meta content="" name="keywords">
@@ -25,9 +24,9 @@
                 </nav>
             </header>
             <div>
-                <div class="HomeBanner" title="本地生活短视频营销服务专家">
+                <div class="HomeBanner" title="抖音小程序本地生活服务商">
                     <section>
-                        <h1>本地生活短视频营销服务专家</h1>
+                        <h1>抖音小程序本地生活服务商</h1>
                         <p>为本地生活商家提供小程序系统，视频创意和制作，并通过数据投放助力商家拉新和转化</p>
                     </section>
                 </div>
@@ -137,7 +136,7 @@
                                         <p class="describe">DAU</p>
                                     </div>
                                 </div>
-                                <p class="info">客客至方舟，针对本地生活服务应用场景，通过短视频+小程序营销解决方案，面向数亿用户通过算法策略触达目标用户，实现品牌传播，帮助商家完成拉新到店、派劵获客等营销目标。</p>
+                                <p class="info">客至方舟，针对本地生活服务应用场景，通过短视频+小程序营销解决方案，面向数亿用户通过算法策略触达目标用户，实现品牌传播，帮助商家完成拉新到店、派劵获客等营销目标。</p>
                             </div>
                         </div>
                     </div>
@@ -277,7 +276,7 @@
                     $('.phone .select').eq(0).css({"display":"block", "top": 70, "left": 0,}).siblings('.select').hide();
                     setTimeout(() => {
                         $(".phone .select").eq(0).css({"width" : "200px", "height": "163px"});
-                        $('.info .ad-text-container').eq(0).css({"opacity": 1});
+                        $('.info .ad-text-container').eq(0).css({"opacity": 1, "transform": "translateY(-30px)"});
                         setTimeout(() => {
                             $('.phone .image').eq(0).css({"opacity": 0.2});
                             $(".phone .select").eq(0).css({"top": 9, "left": -60 , "transform": "scale(1.2)", "backgroundImage": $('.HomeAdStyle .image').eq(0)[0]['style']['backgroundImage']});
@@ -300,11 +299,10 @@
             }
             $('.HomeAdStyle .ad').click( function() {
                 let index = $(this).index();
-                console.log(clicked)
+                $('.info .ad-text-container').eq(0).css({"opacity": 0, "transform": "translateY(0px)"});
                 $(this).addClass('active').siblings('.ad').removeClass('active');
                 $('.phone>div').eq(index).show().siblings('div').hide();
                 if (!clicked[index]) {
-                    console.log($('.phone div').eq(index).siblings())
                     if (index === 0) {
                         $(".phone .select").eq(index).css({"display":"block", "top": 70, "left": 0,}).siblings('.select').hide();
                         setTimeout(() => {
@@ -316,7 +314,7 @@
                             }, 1200);
                         }, 150);
                     } else if (index === 1){
-                        $(".phone .select").eq(index).css({"display":"block", "top": 0, "left": 0,}).siblings('.select').hide();
+                        $(".phone .select").eq(index).css({"display":"block", "top": 0, "left": 0}).siblings('.select').hide();
                         setTimeout(() => {
                             $(".phone .select").eq(index).css({"width" : "200px", "height": "360px"});
                             $('.info .ad-text-container').eq(index).css({"opacity": 1});
@@ -326,10 +324,11 @@
                             }, 1200);
                         }, 150);
                     } else if (index === 2) {
-
+                        $('.phone .select').eq(index).css({"display": "block", "top": 0, "left": 0})
                     } else if (index === 3) {
 
                     }
+                    $('.info .ad-text-container').eq(0).css({"opacity": 1, "transform": "translateY(-30px)"});
                     clicked[index] = true;
                 } else {
                     return;

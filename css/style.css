@@ -1661,7 +1661,7 @@ button {
   line-height: 62px;
   font-weight: 500;
   color: #FFFFFF;
-  font-family: PingFangSC-Medium;
+  font-family: 'Microsoft YaHei', PingFangSC-Medium;
 }
 .HomeBanner section p {
   margin-top: 16px;
@@ -1985,6 +1985,8 @@ button {
 }
 .HomeAdStyle .ad-text-container {
   opacity: 0;
+  transform: translateX(0);
+  transition: all .8s;
 }
 .HomeAdStyle .ad-title {
   margin-top: 62px;
