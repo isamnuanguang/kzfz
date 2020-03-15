@@ -791,7 +791,6 @@ p {
   margin-bottom: 12px;
 }
 .login-modal__input--2akgL:last-child {
-  margin-bottom: 0;
   display: inline;
 }
 .login-modal__type-icon--nc9PL {
@@ -1709,18 +1708,18 @@ button {
 }
 .HomeAdBudget {
   margin: 0 auto;
+  padding-top: 64px;
   max-width: 1400px;
   position: relative;
   user-select: none;
-  height: 580px;
 }
 .HomeAdBudget .info {
-  margin-top: 48px;
+  margin-top: 20px;
   color: rgba(0, 0, 0, 0.45);
   text-align: center;
 }
 .HomeAdBudget .info p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 24px;
 }
 .HomeAdBudget .canvasA {
@@ -2799,7 +2798,7 @@ button {
   display: inline-block;
 }
 .login-modal .captcha-container .login-modal-captcha {
-  display: inline-block;
+  /* display: inline-block; */
   margin-left: 5px;
   width: 110px;
   float: right;
@@ -4296,4 +4295,33 @@ input::-ms-input-placeholder {
   margin-left: 8px;
   color: #999;
 }
-
+.HomeAdBudget-img {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 0;
+}
+.budget-img{
+  width: 20%;
+  max-width: 260px;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 30px 20px;
+  border-radius: 9px;
+  box-shadow: 0 0 10px #e6e6e6;
+}
+.budget-img img{
+  width: 150px;
+  height: 145px;
+}
+.budget-desc {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #000;
+}
+.budget-desc h5 {
+  font-size: 18px;
+}
+.budget-desc p {
+  color: #999;
+}

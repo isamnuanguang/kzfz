@@ -6644,6 +6644,7 @@ li.ant-calendar-time-picker-select-option-disabled:hover {
   outline: none;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 .ant-dropdown-menu-item-group-title {
   padding: 5px 12px;
@@ -13908,9 +13909,6 @@ textarea.ant-pagination-options-quick-jumper input {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15) \9;
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .ant-popover {
-    /* IE10+ */
-  }
   .ant-popover-inner {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
