@@ -337,7 +337,7 @@ h2:after {
     height: 4px;
     margin: 16px auto 12px;
     border-radius: 2px;
-    background-image: linear-gradient(90deg, #4bf5ff, #2f6aff)
+    background-image: linear-gradient(90deg, #ffc809, #ffc809)
 }
 
 h3 {
@@ -588,16 +588,16 @@ h3 {
 }
 
 .case-page .container .show-more-btn {
+    display: block;
     width: 288px;
     height: 52px;
     font-size: 16px;
     font-family: PingFangSC-Regular;
     font-weight: 400;
-    color: #2f6aff;
+    color: #ffc809;
     line-height: 52px;
-    vertical-align: center;
+    /* vertical-align: center; */
     border-radius: 28px;
-    display: block;
     margin: 16px auto 0;
     position: relative;
     border: none;
@@ -611,7 +611,7 @@ h3 {
     left: -1px;
     bottom: -1px;
     right: -1px;
-    background: linear-gradient(90deg, #4bf5ff, #2f6aff);
+    background: linear-gradient(90deg, #ffc809, #ffc809);
     border-radius: 28px;
     z-index: -1
 }
@@ -882,7 +882,7 @@ h3 {
 .form-wrapper .form-btn {
     display: block;
     padding: 14px 95px;
-    background-image: linear-gradient(73deg, #4bf5ff 5%, #2f6aff 88%);
+    background-image: linear-gradient(90deg, #ffc809, #ffc809);
     border-radius: 28px;
     border: none;
     font-family: PingFangSC-Semibold;
@@ -891,7 +891,7 @@ h3 {
     line-height: 24px;
     outline: none;
     margin: 48px auto 56px;
-    background: linear-gradient(295deg, #2f6aff, #25c1f5)
+    background: linear-gradient(90deg, #ffc809, #ffc809)
 }
 
 .form-wrapper .form-btn:hover {
