@@ -1,0 +1,348 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+iframe,
+img,
+input,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+a {
+    color: #000;
+    text-decoration: none
+}
+
+li {
+    list-style: none
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+strong {
+    font-weight: 700
+}
+
+body,
+html {
+    font-family: PingFangSC, helvetica neue, hiragino sans gb, arial, microsoft yahei ui, microsoft yahei, simsun, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body {
+    min-width: 1200px
+}
+
+/* 
+@font-face {
+    font-family: AlteDIN;
+    src: url(https://sf3-ttcdn-tos.pstatp.com/obj/ttfe/cg/business/AlteDIN1451Mittelschriftgepraegt.ttf)
+} */
+
+.container {
+    width: 1180px;
+    margin: 0 auto
+}
+
+button {
+    cursor: pointer
+}
+
+.article-footer-link {
+    margin-top: 20px;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 30px
+}
+
+.article-footer-link .next,
+.article-footer-link .prev {
+    display: flex;
+    align-items: center
+}
+
+.article-footer-link .next span,
+.article-footer-link .prev span {
+    color: #2f6aff;
+    font-family: PingFangSC-Regular
+}
+
+.article-footer-link .prev {
+    float: left
+}
+
+.article-footer-link .prev .prev_btn {
+    margin-left: 5px
+}
+
+.article-footer-link .next {
+    float: right
+}
+
+.article-footer-link .next .next_btn {
+    margin-right: 5px
+}
+
+.case-detail-page .page-header {
+    width: 100%;
+    height: 292px;
+    background-image: url(//s3a.pstatp.com/cg_growth/oceanengine/client/img/5f0fa8b.jpg);
+    background-size: cover
+}
+
+.case-detail-page .container {
+    position: relative;
+    padding-bottom: 80px;
+    width: 1036px
+}
+
+.case-detail-page .container .case-img {
+    width: 344px;
+    height: 344px;
+    border-radius: 10px;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, .06);
+    display: inline-block;
+    position: absolute;
+    top: -137px;
+    z-index: 2;
+    background-size: cover;
+    background-position: 50%
+}
+
+.case-detail-page .container .case-info {
+    display: inline-block;
+    padding: 28px 0 6px;
+    vertical-align: top;
+    margin-left: 392px
+}
+
+.case-detail-page .container .case-info .name {
+    font-size: 32px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #333;
+    line-height: 38px
+}
+
+.case-detail-page .container .case-info .desc {
+    font-size: 20px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+    margin: 17px 0 27px
+}
+
+.case-detail-page .container .case-info .data-wrapper {
+    font-size: 0
+}
+
+.case-detail-page .container .case-info .data-wrapper .data-block {
+    display: inline-block;
+    position: relative
+}
+
+.case-detail-page .container .case-info .data-wrapper .data-block .value-wrapper {
+    display: inline-block
+}
+
+.case-detail-page .container .case-info .data-wrapper .data-block .value-wrapper .value {
+    font-family: AlteDIN;
+    font-size: 32px;
+    color: #2f6aff;
+    line-height: 44px
+}
+
+.case-detail-page .container .case-info .data-wrapper .data-block .value-wrapper .unit {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #2f6aff;
+    line-height: 44px
+}
+
+.case-detail-page .container .case-info .data-wrapper .data-block .value-wrapper .name {
+    display: block;
+    opacity: .45;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    top: -5px
+}
+
+.case-detail-page .container .case-info .data-wrapper .data-block .shortline {
+    margin: 0 48px;
+    width: 1px;
+    height: 48px;
+    background: #d8d8d8;
+    display: inline-block;
+    position: relative;
+    top: -4px
+}
+
+.case-detail-page .container .content {
+    margin-top: 30px
+}
+
+.case-detail-page .container .content h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 48px 0 16px
+}
+
+.case-detail-page .container .content h2:before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2f6aff;
+    vertical-align: middle;
+    margin-right: 8px
+}
+
+.case-detail-page .container .content div[class=sub-section]:first-of-type {
+    margin-top: 24px
+}
+
+.case-detail-page .container .content h2 {
+    margin-top: 32px;
+    font-size: 18px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #333;
+    line-height: 24px;
+    margin-bottom: 11px
+}
+
+.case-detail-page .container .content p {
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #333;
+    line-height: 24px
+}
+
+.case-detail-page .container .content img {
+    width: 510px;
+    height: 286px;
+    margin: 32px 0 48px;
+    background-size: cover;
+    display: block
+}
