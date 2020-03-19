@@ -1982,11 +1982,11 @@ button {
   line-height: 20px;
   color: rgba(0, 0, 0, 0.65);
 }
-.HomeAdStyle .ad-text-container {
+/* .HomeAdStyle .ad-text-container {
   opacity: 0;
   transform: translateX(0);
   transition: all .8s;
-}
+} */
 .HomeAdStyle .ad-title {
   margin-top: 62px;
   font-size: 24px;
@@ -4324,4 +4324,10 @@ input::-ms-input-placeholder {
 }
 .budget-desc p {
   color: #999;
+}
+.ad-text-container .ads-text{
+  display: none;
+  opacity: 0;
+  transform: translateX(0);
+  transition: all .8s;
 }
