@@ -201,7 +201,7 @@ button {
 
 .case-detail-page .page-header {
     width: 100%;
-    height: 292px;
+    height: 200px;
     background-image: url(//s3a.pstatp.com/cg_growth/oceanengine/client/img/5f0fa8b.jpg);
     background-size: cover
 }
@@ -340,8 +340,7 @@ button {
 }
 
 .case-detail-page .container .content img {
-    width: 510px;
-    height: 286px;
+    width: 300px;
     margin: 32px 0 48px;
     background-size: cover;
     display: block
