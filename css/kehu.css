@@ -250,7 +250,7 @@ button {
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 1000px #fff inset !important
+    box-shadow: 0 0 0 1000px #fff inset !important
 }
 
 .custom-toast {
@@ -324,7 +324,7 @@ input:-webkit-autofill {
     margin: 0 auto;
 }
 h2 {
-    font-family: PingFangSC-Semibold;
+    /* font-family: PingFangSC-Semibold; */
     font-size: 32px;
     color: #222;
     line-height: 46px
