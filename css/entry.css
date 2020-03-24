@@ -12,7 +12,41 @@
 .com-e-hero-bar-btns .c-btn {
     font-size: 16px
 }
-
+.c-btn {
+    box-sizing: border-box;
+    outline: none;
+    touch-action: manipulation;
+    background: none;
+    margin: 0;
+    border: 0;
+    display: inline-block;
+    padding: 1.0625em 1.875em;
+    border-radius: 5px;
+    font-family: ShopifySans,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.133;
+    -webkit-font-smoothing: antialiased;
+    transition: 150ms ease;
+    transition-property: background-color,
+        border-color,
+        box-shadow,
+        color;
+    text-align: center;
+    user-select: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffc809;
+    color: #ffffff;
+    border-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    text-decoration: none;
+}
 .c-section.c-p-y-tall.customer-mod {
     padding-bottom: 0px
 }
@@ -691,7 +725,26 @@
         display: none
     }
 }
+.com-e-hero-bar-cnt {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 99%
+}
+.com-e-hero-bar-title {
+    font-size: 34px;
+    font-weight: 400
+}
 
+.com-e-hero-bar-desc {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.7
+}
+
+.com-e-hero-bar-desc .hero-info {
+    margin-top: 10px;
+    color: #ccc
+}
 @media screen and (min-width:769px) {
     .page-p-entry .com-e-hero-bar.higher .com-e-hero-bar-inner {
         height: 360px
@@ -708,4 +761,156 @@
     .page-p-entry .com-e-hero-bar-desc {
         margin-top: 12px
     }
+}
+.c-p-y-tall.home-footer-mod {
+    background-size: cover
+}
+
+.c-section.c-p-y-tall {
+    padding: 70px 0 80px
+}
+@media screen and (max-width:1367px) {
+    .c-section.c-p-y-tall {
+        padding: 45px 10px 50px
+    }
+
+    .c-section-hd {
+        margin-bottom: 30px
+    }
+
+    .c-section-tit {
+        font-size: 24px
+    }
+
+    .c-section-des {
+        font-size: 16px
+    }
+}
+.com-e-hero-bar {
+    min-width: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #61697c;
+    -webkit-font-smoothing: antialiased;
+    text-align: center
+}
+.com-e-hero-bar-desc .hero-link:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    width: 7px;
+    height: 13px;
+    margin-left: 5px;
+    background-image: url(sprite/global-201911291451.svg);
+    ;
+    transition: -webkit-transform .4s;
+    transition: transform .4s;
+    transition: transform .4s, -webkit-transform .4s;
+    background-position: 96.59% 91.94%;
+    background-size: 4285.714285714285% 2200%;
+    ;
+    background-repeat: no-repeat
+}
+
+.com-e-hero-bar-desc .hero-link:hover {
+    text-decoration: none
+}
+
+.com-e-hero-bar-desc .hero-link:hover:after {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px)
+}
+
+.com-e-hero-bar-btns {
+    margin-top: 30px;
+    font-size: 0
+}
+
+.com-e-hero-bar-btns>.btn-item {
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 180px
+}
+.com-e-hero-bar-inner {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 255px;
+    max-width: 1200px;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 0
+}
+
+.com-e-hero-bar.higher .com-e-hero-bar-inner {
+    height: 320px
+}
+
+.com-e-hero-bar-inner:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100%
+}
+@media screen and (max-height:769px) {
+    .c-section.c-p-y-tall {
+        padding: 45px 10px 50px
+    }
+
+    .c-section-hd {
+        margin-bottom: 30px
+    }
+
+    .c-section-tit {
+        font-size: 24px
+    }
+
+    .c-section-des {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .c-section.c-p-y-tall {
+        padding: 45px 0 50px
+    }
+}
+.c-section-inner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 10px
+}
+
+.c-section-hd {
+    margin-bottom: 55px
+}
+
+.c-section.c-p-y-short .c-section-hd {
+    margin-bottom: 35px
+}
+
+.c-section-tit {
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.5
+}
+
+.c-section-des {
+    text-align: center;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0 0;
+    line-height: 1.5
 }

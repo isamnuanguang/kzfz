@@ -352,15 +352,15 @@ h3 {
     width: 100%;
     height: 360px;
     text-align: center;
-    padding-top: 125px;
+    padding-top: 100px;
     box-sizing: border-box;
     background-position: 50%;
     background-size: cover
 }
 
 .page-header .title-wrapper h2 {
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 400;
     color: #fff;
     line-height: 45px;
     text-shadow: 0 2px 72px rgba(0, 0, 0, .51)

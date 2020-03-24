@@ -1660,7 +1660,7 @@ button {
   line-height: 62px;
   font-weight: 500;
   color: #FFFFFF;
-  font-family: 'Microsoft YaHei', PingFangSC-Medium;
+  /* font-family: 'Microsoft YaHei', PingFangSC-Medium; */
 }
 .HomeBanner section p {
   margin-top: 16px;
