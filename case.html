@@ -4,9 +4,47 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="renderer" content="webkit">
+    <meta name="robots" content="all">
+    <meta name="revisit-after" content="1 days">
+    <meta name="applicable-device" content="pc,mobile">
+    <mobile:mobile type="pc,mobile" />
+    <title>客户案例-客至方舟-抖音小程序本地生活解决方案服务商</title>
+    <meta name="keywords" content="客至方舟,方舟,小程序,短视频,美团,外卖,团购,本地生活服务,抖音,快手,有赞,微盟,宝尊,TP商,服务商,代运营,营销,拍摄,小程序开发,小程序外包,SaaS">
+    <meta name="description" content="客至方舟是抖音小程序本地生活解决方案服务商,为商户开发抖音小程序及运营服务,并提供短视频创意的定制和短视频拍摄,及短视频营销投放">
     <link rel="stylesheet" type="text/css" href="./css/kehu.css">
     <link href="./css/style1.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
+    <style>
+        .com-e-hero-bar-btns {
+            margin-top: 30px;
+            font-size: 0
+        }
+
+        .com-e-hero-bar-btns>.btn-item {
+            margin: 0 10px;
+            display: inline-block;
+            vertical-align: middle;
+            width: 180px
+        }
+        .c-btn {
+            outline: none;
+            background: none;
+            margin: 0;
+            border: 0;
+            display: inline-block;
+            padding: .8em 1.8em;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 14px;
+            text-align: center;
+            -webkit-appearance: none;
+            cursor: pointer;
+            box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+            background-color: #ffc809;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
 
     <title>客至方舟-客户案例</title>
 </head>
@@ -32,6 +70,11 @@
                     <div data-v-2b6250a2="" class="title-wrapper">
                         <h2 data-v-2b6250a2="">经典案例，赋能合作伙伴不断赢得成功</h2>
                         <h3 data-v-2b6250a2="">移动营销智能投放，创新组合玩法，助力商家抢占市场先机</h3>
+                    </div>
+                    <div class="com-e-hero-bar-btns">
+                        <div class="hero-bubble-trigger show-bubble">
+                            <a class="c-btn" href="#contactTo">立即联系营销顾问</a>
+                        </div>
                     </div>
                 </div>
                 <div class="container">
@@ -128,33 +171,38 @@
                         </a> -->
                     </div>
                 </div>
-                <div class="advertise-wrapper">
+                <div class="advertise-wrapper" id="contactTo">
                     <div class="container">
-                        <div data-v-2b6250a2="" class="title-wrapper">
-                            <h2 data-v-2b6250a2="">请专业顾问来电为您介绍</h2>
-                            <h3 data-v-2b6250a2="">留下您的联系方式，我们的营销顾问免费为您服务</h3>
+                        <div class="title-wrapper">
+                            <h2>请专业顾问来电为您介绍</h2>
+                            <h3>留下您的联系方式，我们的营销顾问免费为您服务</h3>
                         </div>
                         <div class="form-wrapper visitClue-modal-wrapper">
                             <div class="form-block">
-                                <div class="form-item"><input name="customerName" type="text" placeholder="姓名"
-                                        class="pristine untouched" aria-required="true" aria-invalid="false"> <span
-                                        class="error" style="display: none;">
-                                    </span></div>
-                                <div class="form-item"><input name="customerPhone" type="tel" placeholder="手机"
-                                        class="pristine untouched" aria-required="true" aria-invalid="false"> <span
-                                        class="error" style="display: none;">
-                                    </span></div>
+                                <div class="form-item">
+                                    <input name="customerName" type="text" placeholder="姓名" class="pristine untouched"
+                                        aria-required="true" aria-invalid="false">
+                                    <span class="error" style="display: none;"></span>
+                                </div>
+                                <div class="form-item">
+                                    <input name="customerPhone" type="tel" placeholder="手机" class="pristine untouched"
+                                        aria-required="true" aria-invalid="false">
+                                    <span class="error" style="display: none;"></span>
+                                </div>
                             </div>
                             <div class="form-block">
-                                <div class="form-item"><input name="companyName" type="text" placeholder="公司名称"
-                                        class="pristine untouched" aria-required="true" aria-invalid="false"> <span
-                                        class="error" style="display: none;">
-                                    </span></div>
-                                <div class="form-item select">
-                                    <div class="address-text text placeholder-text">省市
-                                    </div>
+                                <div class="form-item">
+                                    <input name="companyName" type="text" placeholder="公司名称" class="pristine untouched"
+                                        aria-required="true" aria-invalid="false">
+                                    <span class="error" style="display: none;"></span>
+                                </div>
+                                <select class="form-item select" style="-webkit-appearance: none;">
+                                    <option value="" selected disabled>省市</option>
+                                </select>
+                                <!-- <div class="form-item select">
+                                    <div class="address-text text placeholder-text">省市</div>
                                     <div class="province-select" style="display: none;">
-                                        <div data-v-751443af=""
+                                        <div
                                             class="swiper-container swiper-container-initialized swiper-container-vertical swiper-container-free-mode">
                                             <div class="swiper-wrapper" style="transition-duration: 0ms;">
                                                 <div class="swiper-slide">
@@ -266,7 +314,7 @@
                                         </div>
                                     </div>
                                     <div class="city-select" style="display: none;">
-                                        <div data-v-751443af=""
+                                        <div
                                             class="swiper-container swiper-container-initialized swiper-container-vertical swiper-container-free-mode">
                                             <div class="swiper-wrapper" style="transition-duration: 0ms;">
                                                 <div class="swiper-slide"></div>
@@ -274,19 +322,13 @@
                                                 aria-atomic="true"></span>
                                         </div>
                                     </div> <span class="error error-msg" style="display: none;"></span>
-                                </div>
+                                </div> -->
                             </div>
-                            <div data-v-751443af="">
+                            <div>
                             </div>
                             <button class="form-btn" style="opacity: 1;">
                                 预约顾问咨询
                             </button>
-                            <div class="contact-wrapper">
-                                <div class="tel-wrapper">
-                                    <p class="text">我们随时为您提供帮助</p> <a data-v-751443af="" href="#tel:********"
-                                        class="tel-num">********</a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <!-- <div data-v-823492b8="" class="success-modal-wrapper visitClue-success-modal-wrapper"
@@ -326,7 +368,8 @@
             </div>
         </div>
     </div>
-
+<script src="./js/jquery.min.js"></script>
+<script src="./js/info.js"></script>
 </body>
 
 </html>

@@ -4333,7 +4333,7 @@ input::-ms-input-placeholder {
 }
 .advertise-wrapper {
   position: relative;
-  padding-top: 56px;
+  padding: 56px 0 40px;
   background: #fafafa;
   text-align: center
 }
