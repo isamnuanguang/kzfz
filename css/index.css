@@ -1565,7 +1565,7 @@ main p>a:focus {
     border-radius: 5px;
     font-family: ShopifySans, Helvetica, Arial, sans-serif;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 15px;
     line-height: 1.133;
     -webkit-font-smoothing: antialiased;
     transition: 150ms ease;
