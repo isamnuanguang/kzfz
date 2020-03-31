@@ -19,9 +19,9 @@
     <div class="home" id="root">
         <div class="AppWrapper">
             <header>
-                <div class="logo-container">
+                <!-- <div class="logo-container">
                     <div class="logo"></div>
-                </div>
+                </div> -->
                 <nav>
                     <a class="active" href="index.html">首页</a>
                     <a href="solution.html">解决方案</a>
@@ -29,13 +29,38 @@
                     <a href="buy.html">订购</a>
                     <!-- <a href="partner.html">渠道合作</a> -->
                 </nav>
-                <!-- <ul class="nav-dropdown">
-                <li><a href="index.html">首页</a></li>
-                <li><a href="type.html">创意分类</a></li>
-                <li><a href="buy.html">购买</a></li>
-                <li><a href="#">关于沙抖</a></li>
-            </ul> -->
             </header>
+            <div id="yoo-header">
+                <nav class="nav-icon">
+                    <a href="index.html" title="Yooying" class="i-brand">
+                        客至方舟
+                    </a>
+                    <a href="javascript:;" class="i-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24"
+                            stroke-width="3.5">
+                            <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"></path>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16"
+                            stroke-width="3.5">
+                            <path d="M2 30 L30 2 M30 30 L2 2"></path>
+                        </svg>
+                    </a>
+                    <!-- <a href="search-input.html" class="i-search" title="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
+                            stroke-width="3.5">
+                            <circle cx="14" cy="14" r="12"></circle>
+                            <path d="M23 23 L30 30"></path>
+                        </svg>
+                    </a> -->
+                </nav>
+                <ul class="nav-dropdown">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="solution.html">解决方案</a></li>
+                    <!-- <li><a href="buy.html">客户案例</a></li> -->
+                    <li><a href="buy.html">订购</a></li>
+                    <!-- <li><a href="#">渠道合作</a></li> -->
+                </ul>
+            </div>
             <div>
                 <div class="HomeBanner" title="抖音小程序本地生活服务商">
                     <section class="bannerTitle">
@@ -343,6 +368,7 @@
     </div>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/info.js"></script>
+    <script src="./js/app.js"></script>
     <script>
         function throttle(fn) {
             let waitRun = true;

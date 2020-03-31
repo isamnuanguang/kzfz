@@ -103,7 +103,12 @@ section {
 body {
   line-height: 1
 }
-
+body svg:not(#logo) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round
+}
 blockquote,
 q {
   quotes: none
@@ -2997,7 +3002,9 @@ button {
   margin-bottom: 16px
 }
 
-
+#yoo-header {
+  display: none;
+}
 @media screen and (max-width: 769px) {
   body {
     width: 100%;
@@ -3015,11 +3022,31 @@ button {
     width: 62px;
     height: 16px;
   }
+  .home .AppWrapper header {
+    display: none;
+  }
   .HomeBanner {
-    height: 300px;
+    height: 173px;
+    text-align: center;
+  }
+  .HomeBanner section {
+    width: 100%;
+    display: block;
+    padding-top: 66px;
+  }
+  .HomeBanner section h1 {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .HomeBanner section p {
+    display: none;
   }
   .bannerTitle {
     display: none;
+  }
+  .HomeTitle .title {
+    font-size: 24px;
+    line-height: 1.5;
   }
   .HomeAdBudget {
     padding-top: 32px;
@@ -3034,8 +3061,16 @@ button {
     max-width: none;
     width: 40%;
     margin: 10px 10px;
-    padding: 20px 20px;
+    padding: 10px;
+    /* padding: 20px 20px; */
     box-sizing: border-box;
+  }
+  .budget-desc {
+    margin-top: 15px;
+  }
+  .budget-desc p {
+    padding: 0 20px;
+    font-size: 12px;
   }
   .budget-img img {
     width: 92px;
@@ -3053,6 +3088,7 @@ button {
   .home-slider {
     width: 100%;
     padding: 0;
+    margin-bottom: 30px;
   }
   .home-slider img {
     width: 128px;
@@ -3062,12 +3098,98 @@ button {
   .home-slider.shadow::after {
     width: 30px;
   }
+  .HomeAdStyle main {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .HomeAdStyle .phone {
+    margin: 0 auto;
+    width: 200px;
+    height: 360px;
+    display: none;
+  }
+  .HomeAdStyle .view {
+    width: 170px;
+    height: 282px;
+    top: 40px;
+    left: 15px
+  }
+  .HomeAdStyle .ad {
+    height: auto;
+    padding-top: 0;
+  }
+  .HomeAdStyle .info {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border-radius: 8px
+  }
+  .HomeAdStyle .ad-title {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .ad-text-container .ads-text {
+    padding: 0 20px
+  }
+  .HomeAdRevenue {
+    padding: 40px 0;
+  }
+  .HomeAdRevenue .back {
+    width: 100%;
+  }
+  .HomeAdRevenue .main {
+    width: 100%;
+    height: 370px;
+    margin: 20px auto 0;
+  }
+  .HomeAdRevenue .front {
+    top: 15px;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 85%;
+  }
+  .HomeAdRevenue .left {
+    display: none;
+  }
+  .HomeAdRevenue .content {
+    padding: 20px 40px 0;
+  }
+  .HomeAdRevenue .content .title {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .HomeAdRevenue .items {
+    margin-top: 12px;
+  }
+  .HomeAdRevenue .big-number {
+    font-size: 24px;
+  }
+  .HomeAdRevenue .describe {
+    margin-top: 5px;
+  }
+  .HomeAdRevenue .ver {
+    margin: 0 20px;
+  }
+  .HomeAdService {
+    padding: 20px 0;
+  }
   .HomeAdService .items {
     width: 100%;
   }
   .HomeAdService .item .title {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1;
+  }
+  .HomeAdService .item .title-border {
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #ffc809;
   }
   .HomeAdService .item .back-img {
     background-size: 100% 100%;
@@ -3076,9 +3198,16 @@ button {
   .HomeAdService .item {
     width: 100%;
     height: auto;
-    padding: 20px 100px 30px 100px;
+    padding: 20px 80px;
     border-radius: 0;
     margin-bottom: 0
+  }
+  .HomeAdService .item .describe {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .HomeNewsRecent {
+    padding: 35px 0 50px 0;
   }
   .HomeNewsRecent .new-recent-item {
     width: 100%
@@ -3088,6 +3217,10 @@ button {
     display: initial;
     justify-content: flex-start;
   }
+  .HomeNewsRecent .new-recents a {
+    display: block;
+    margin: 10px;
+  }
   .form-wrapper .form-block .form-item:first-child {
     margin-right: 0;
     margin-bottom: 10px;
@@ -3095,4 +3228,146 @@ button {
   .form-wrapper .form-block {
     margin-bottom: 10px;
   }
+  .advertise-wrapper {
+    padding: 0;
+  }
+  .advertise-wrapper .title-wrapper {
+    margin-bottom: 30px;
+  }
+  .advertise-wrapper h2 {
+    font-size: 24px;
+  }
+  .advertise-wrapper h3 {
+    font-size: 14px'
+  }
+  #yoo-header {
+    display: block;
+    /* height: 90px; */
+    color: #adb5bd;
+    position: relative
+  }
+
+  #yoo-header nav {
+    height: 45px;
+    line-height: 45px;
+    background-color: #16181b
+  }
+
+  #yoo-header nav a {
+    color: #fff
+  }
+
+  #yoo-header nav a:hover {
+    color: #adb5bd
+  }
+
+  #yoo-header nav.nav-icon {
+    position: relative
+  }
+
+  #yoo-header nav.nav-icon .i-brand,
+  #yoo-header nav.nav-icon .i-menu,
+  #yoo-header nav.nav-icon .i-search {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: inherit;
+    line-height: inherit;
+    z-index: 99
+  }
+
+  #yoo-header nav.nav-icon .i-menu,
+  #yoo-header nav.nav-icon .i-search {
+    padding: 0 15px
+  }
+
+  #yoo-header nav.nav-icon .i-brand {
+    left: calc(50% - 22px)
+  }
+
+  #yoo-header nav.nav-icon .i-menu {
+    left: 0
+  }
+
+  #yoo-header nav.nav-icon .i-menu svg:first-child {
+    display: block
+  }
+
+  #yoo-header nav.nav-icon .i-menu.open svg:first-child,
+  #yoo-header nav.nav-icon .i-menu svg:last-child {
+    display: none
+  }
+
+  #yoo-header nav.nav-icon .i-menu.open svg:last-child {
+    display: block
+  }
+
+  #yoo-header nav.nav-icon .i-search {
+    right: 0
+  }
+
+  #yoo-header nav.nav-bar {
+    padding: 0 5px;
+    text-align: center;
+    white-space: nowrap;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch
+  }
+
+  #yoo-header nav.nav-bar::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+  }
+
+  #category ul::-webkit-scrollbar {
+    scrollbar-width: none;
+    display: none;
+  }
+
+  #yoo-header nav.nav-bar a {
+    padding: 0 6px;
+    line-height: inherit;
+    display: inline-block
+  }
+
+  #yoo-header .nav-dropdown a,
+  #yoo-header nav.nav-bar a {
+    color: #adb5bd;
+    font-weight: 500;
+    text-transform: uppercase
+  }
+
+  #yoo-header .nav-dropdown a:hover,
+  #yoo-header nav.nav-bar a:hover {
+    color: #fff
+  }
+
+  #yoo-header .nav-dropdown {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 45px;
+    left: 0;
+    right: 0;
+    line-height: normal;
+    background-color: #16181b;
+    padding-bottom: 5px
+  }
+
+  #yoo-header .nav-dropdown li {
+    border-top: 1px solid #212529
+  }
+
+  #yoo-header .nav-dropdown a {
+    display: block;
+    padding: 15px
+  }
+
 }
