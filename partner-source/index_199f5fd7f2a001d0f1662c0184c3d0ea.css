@@ -28,7 +28,7 @@ html {
 
 .block-intro {
     height: 480px;
-    /* background: url("//su.yzcdn.cn/static/intro/qudao/tiny/remove_the_gradient_version_from_the_header_(1).png"); */
+    background: url("../images/qudaohezuo-banner.png");
     background-color: #303841;
     color: #fff;
     padding: 156px 120px;
@@ -36,7 +36,7 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background-size: auto 100%;
+    background-size: 100%;
     background-repeat: no-repeat
 }
 
@@ -47,7 +47,7 @@ html {
 
 .block-intro h1 {
     font-size: 44px;
-    color: #fff;
+    color: #333;
     line-height: 52px;
     margin-bottom: 16px;
     font-weight: 500
@@ -55,7 +55,7 @@ html {
 
 .block-intro p {
     font-size: 20px;
-    color: #c8c9cc;
+    color: #666;
     line-height: 28px
 }
 
