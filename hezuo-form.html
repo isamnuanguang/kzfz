@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./partner-source/base_b30dc4ca5e1427de0aa8cd60634dc941.css" media="screen">
     <link rel="stylesheet" href="./partner-source/index_199f5fd7f2a001d0f1662c0184c3d0ea.css" media="screen">
     <style>
-        .company-content {
+        .introduce {
             width: 360px;
             background: #fff;
             /* border-radius: 26px; */
@@ -73,7 +73,7 @@
                                 </div>
                                 <div class="form-block">
                                     <div class="form-item">
-                                        <input name="customerName" type="text" placeholder="公司名称"
+                                        <input name="companyName" type="text" placeholder="公司名称"
                                             class="pristine untouched" aria-required="true" aria-invalid="false">
                                         <span class="error" style="display: none;"></span>
                                     </div>
@@ -81,7 +81,7 @@
                                 </div>
                                 <div class="form-block">
                                     <div class="form-item">
-                                        <input name="companyCount" type="tel" placeholder="公司规模"
+                                        <input name="companyCount" type="text" placeholder="公司规模"
                                             class="pristine untouched" aria-required="true" aria-invalid="false">
                                         <span class="error" style="display: none;"></span>
                                     </div>
@@ -101,7 +101,7 @@
                                     </select>
                                 </div>
                                 <div class="form-block">
-                                    <textarea name="companyContent" id="" cols="30" rows="5" maxlength="120" class="company-content"
+                                    <textarea name="introduce" id="" cols="30" rows="5" maxlength="120" class="introduce"
                                         placeholder="公司介绍（当前主营业务，过往产品，客户资源覆盖领域）,最多120字"></textarea>
                                 </div>
                                 <div>
@@ -139,7 +139,7 @@
             </div>
         </div>
         <script type="text/javascript" src="./js/jquery.min.js"></script>
-        <script src="./partner-source/index_a3fe75190a809e392927.js" charset="utf-8"></script>
+        <!-- <script src="./partner-source/index_a3fe75190a809e392927.js" charset="utf-8"></script> -->
         <script>
             $(function () {
                 $.ajax({
@@ -155,12 +155,14 @@
                         }
                     }
                 })
-                $('..form-btn').on('click', function () {
+                $('.form-btn').on('click', function () {
                     let name = $('input[name="customerName"]').val(),
                         phone = $('input[name="customerPhone"]').val(),
                         company = $('input[name="companyName"]').val(),
+                        count = $('input[name="companyCount"]').val(),
                         product = $('.product').val(),
-                        province = $('.province').val();
+                        province = $('.province').val(),
+                        introduce = $('.introduce').val();
                     if (name && phone && company && province) {
                         if (!(/^1(3|4|5|6|7|8|9)\d{9}$/.test(phone))) {
                             $('input[name="customerPhone"]').addClass('error').siblings('.error').html('手机号格式错误').show()
@@ -168,16 +170,28 @@
                         }
                         $('input[name="customerPhone"]').removeClass('error').siblings('.error').hide()
                         $.ajax({
-                            // url: 'http://182.92.155.225:8000/v1/guest_ark/customer_book/',
+                            url: 'http://182.92.155.225:8000/v1/guest_ark/customer_book/',
                             type: 'post',
                             data: {
+                                form_type: 2,
                                 name: name,
                                 mobile: phone,
                                 company: company,
-                                province: province
+                                province: province,
+                                product: product,
+                                scale: count,
+                                introduce: introduce
                             },
                             success: function (res) {
                                 alert("预约成功，稍候营销顾问会跟您取得联系");
+                                $('input[name="customerName"]').val('');
+                                $('input[name="customerPhone"]').val('');
+                                $('input[name="companyName"]').val('');
+                                $('input[name="companyCount"]').val('');
+                                $(".province option:first").prop("selected", 'selected');
+                                $('.product option:first').prop("selected", 'selected');
+                                $('.introduce').val('');
+
                             }
                         })
                     } else {

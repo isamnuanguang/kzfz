@@ -34,6 +34,10 @@ $(function () {
                 },
                 success: function (res) {
                     alert("预约成功，稍候营销顾问会跟您取得联系");
+                    $('input[name="customerName"]').val('');
+                    $('input[name="customerPhone"]').val('');
+                    $('input[name="companyName"]').val('');
+                    $(".province option:first").prop("selected", 'selected');
                 }
             })
         } else {
