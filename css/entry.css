@@ -448,7 +448,7 @@
 
 @media (max-width:600px) {
     .com-e-hero-bar {
-        background-image: url(./images/so-bg.png);
+        background-image: url(../images/so-bg.png);
         background-position: center;
         background-size: cover
     }

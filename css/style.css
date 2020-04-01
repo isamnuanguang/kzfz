@@ -3035,7 +3035,7 @@ button {
     padding-top: 66px;
   }
   .HomeBanner section h1 {
-    font-size: 24px;
+    font-size: 24px !important;
     line-height: 1;
   }
   .HomeBanner section p {
@@ -3240,8 +3240,24 @@ button {
   .advertise-wrapper h3 {
     font-size: 14px'
   }
+  .com-e-hero-bar-title {
+    font-size: 24px;
+  }
+  .com-e-hero-bar-desc {
+    font-size: 14px;
+  }
+  .com-e-hero-bar-desc p {
+    padding: 0 40px;
+  }
+  .c-section-tit {
+    font-size: 20px;
+  }
+  .scenes-mod {
+    display: none;
+  }
   #yoo-header {
     display: block;
+    height: auto !important;
     /* height: 90px; */
     color: #adb5bd;
     position: relative
