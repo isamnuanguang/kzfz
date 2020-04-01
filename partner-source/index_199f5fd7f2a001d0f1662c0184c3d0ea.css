@@ -9,7 +9,7 @@ html {
 }
 
 .page-container .primary-button {
-    background-color: #155bd4;
+    background-color: #ffc809;
     width: 158px;
     color: #fff;
     font-size: 16px;
@@ -75,7 +75,7 @@ html {
 }
 
 .block-intro .button-block a:first-child {
-    background-color: #155bd4
+    background-color: #ffc809
 }
 
 /* .block-intro .button-block a:last-child {
