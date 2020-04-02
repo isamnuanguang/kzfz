@@ -27,11 +27,12 @@ html {
 }
 
 .block-intro {
-    height: 480px;
+    height: 360px;
     background: url("../images/qudaohezuo-banner.png");
     background-color: #303841;
     color: #fff;
-    padding: 156px 120px;
+    padding: 120px;
+    text-align: center;
     background-position: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
