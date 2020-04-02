@@ -28,16 +28,16 @@ html {
 
 .block-intro {
     height: 360px;
-    background: url("../images/qudaohezuo-banner.png");
+    background: url("../partner-source/qudaohezuo.jpg");
     background-color: #303841;
     color: #fff;
     padding: 120px;
     text-align: center;
-    background-position: 100%;
+    /* background-position: 100%; */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat
 }
 
@@ -48,7 +48,6 @@ html {
 
 .block-intro h1 {
     font-size: 44px;
-    color: #333;
     line-height: 52px;
     margin-bottom: 16px;
     font-weight: 500
@@ -56,7 +55,6 @@ html {
 
 .block-intro p {
     font-size: 20px;
-    color: #666;
     line-height: 28px
 }
 
