@@ -3229,7 +3229,7 @@ button {
     margin-bottom: 10px;
   }
   .advertise-wrapper {
-    padding: 0;
+    padding: 20px 0;
   }
   .advertise-wrapper .title-wrapper {
     margin-bottom: 30px;
@@ -3238,7 +3238,7 @@ button {
     font-size: 24px;
   }
   .advertise-wrapper h3 {
-    font-size: 14px'
+    font-size: 14px;
   }
   .com-e-hero-bar-title {
     font-size: 24px;
