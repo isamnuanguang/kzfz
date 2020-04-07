@@ -16,7 +16,7 @@ $(function () {
         let name = $('input[name="customerName"]').val(),
             phone = $('input[name="customerPhone"]').val(),
             company = $('input[name="companyName"]').val(),
-            province = $('.select').val();
+            province = $('.advertise-wrapper .select').val();
         if (name && phone && company && province) {
             if (!(/^1(3|4|5|6|7|8|9)\d{9}$/.test(phone))) {
                 $('input[name="customerPhone"]').addClass('error').siblings('.error').html('手机号格式错误').show()
