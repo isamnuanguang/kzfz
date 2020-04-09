@@ -236,7 +236,9 @@
 }
 
 .main-brochure-section {
-    padding-bottom: 0
+    padding-bottom: 0;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 @media screen and (min-width: 67.5em) {
