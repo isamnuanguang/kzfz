@@ -27,6 +27,7 @@ $(function () {
                 url: 'http://182.92.155.225:8000/v1/guest_ark/customer_book/',
                 type: 'post',
                 data: {
+                    form_type: 1,
                     name: name,
                     mobile: phone,
                     company: company,
