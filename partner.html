@@ -308,67 +308,120 @@
                     </div>
                 </section>
             </section>
-                <div class="advertise-wrapper" id="contactTo">
-                    <div class="container">
-                        <div class="title-wrapper">
-                            <h2>立即成为合作伙伴的一员</h2>
-                            <h3>留下您的联系方式，我们的渠道顾问为您服务</h3>
-                        </div>
-                        <div class="form-wrapper visitClue-modal-wrapper">
-                            <div class="form-block">
-                                <div class="form-item">
-                                    <input name="customerName" type="text" placeholder="姓名" class="pristine untouched"
-                                        aria-required="true" aria-invalid="false">
-                                    <span class="error" style="display: none;"></span>
-                                </div>
-                                <div class="form-item">
-                                    <input name="customerPhone" type="tel" placeholder="手机" class="pristine untouched"
-                                        aria-required="true" aria-invalid="false">
-                                    <span class="error" style="display: none;"></span>
-                                </div>
-                            </div>
-                            <div class="form-block">
-                                <div class="form-item">
-                                    <input name="companyName" type="text" placeholder="公司名称" class="pristine untouched"
-                                        aria-required="true" aria-invalid="false">
-                                    <span class="error" style="display: none;"></span>
-                                </div>
-                                <select class="form-item select province" style="-webkit-appearance: none;">
-                                    <option value="" selected disabled>省市</option>
-                                </select>
-                            </div>
-                            <button class="form-btn" style="opacity: 1;">
-                                预约顾问咨询
-                            </button>
-                        </div>
+            <div class="advertise-wrapper" id="contactTo">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <h2>立即成为合作伙伴的一员</h2>
+                        <h3>留下您的联系方式，我们的渠道顾问为您服务</h3>
                     </div>
+                    <div class="form-wrapper visitClue-modal-wrapper">
+                        <div class="form-block">
+                            <div class="form-item">
+                                <input name="customerName" type="text" placeholder="姓名" class="pristine untouched"
+                                    aria-required="true" aria-invalid="false">
+                                <span class="error" style="display: none;"></span>
+                            </div>
+                            <div class="form-item">
+                                <input name="customerPhone" type="tel" placeholder="手机" class="pristine untouched"
+                                    aria-required="true" aria-invalid="false">
+                                <span class="error" style="display: none;"></span>
+                            </div>
+                        </div>
+                        <div class="form-block">
+                            <div class="form-item">
+                                <input name="companyName" type="text" placeholder="公司名称" class="pristine untouched"
+                                    aria-required="true" aria-invalid="false">
+                                <span class="error" style="display: none;"></span>
+                            </div>
+                            <select class="form-item select province" style="-webkit-appearance: none;">
+                                <option value="" selected disabled>省市</option>
+                            </select>
+                        </div>
+                        <button class="form-btn" style="opacity: 1;">
+                            预约顾问咨询
+                        </button>
                     </div>
-                    <footer>
-                        <div class="main">
-                            <section>
-                                <div class="logo-container">
-                                    <div class="logo"></div>
-                                </div>
-                            </section>
-                            <section>
-                                <p class="title">友情链接</p><a class="txt" href="#">客至方舟营销</a><a class="txt"
-                                    href="#">客至方舟</a><a class="txt" href="#">时光未来</a><a class="txt"
-                                    href="#privacy">隐私协议</a>
-                            </section>
-                            <section>
-                                <p class="title">联系我们</p><a class="txt" href="#" target="_blank">方舟服务</a><a class="txt"
-                                    href="#" target="_blank">问题举报</a>
-                            </section>
-                            <section>
-                                <!-- <p class="title">官方公众号</p><img class="qrcode-img" src="./images/0f109271499225ba1dcb0cbe22c20b23.png"> -->
-                            </section>
-                        </div>
-                        <div class="icp-container">
-                            <div class="icp-content">© 2020 客至方舟 京ICP备20006833号-1 北京时光未来科技有限公司</div>
-                        </div>
-                    </footer>
                 </div>
             </div>
+            <footer>
+                <div class="main">
+                    <section>
+                        <div class="logo-container">
+                            <div class="logo"></div>
+                        </div>
+                    </section>
+                    <section>
+                        <p class="title">友情链接</p><a class="txt" href="#">客至方舟营销</a><a class="txt"
+                            href="#">客至方舟</a><a class="txt" href="#">时光未来</a><a class="txt"
+                            href="#privacy">隐私协议</a>
+                    </section>
+                    <section>
+                        <p class="title">联系我们</p><a class="txt" href="#" target="_blank">方舟服务</a><a class="txt"
+                            href="#" target="_blank">问题举报</a>
+                    </section>
+                    <section>
+                        <!-- <p class="title">官方公众号</p><img class="qrcode-img" src="./images/0f109271499225ba1dcb0cbe22c20b23.png"> -->
+                    </section>
+                </div>
+                <div class="icp-container">
+                    <div class="icp-content">© 2020 客至方舟 京ICP备20006833号-1 北京时光未来科技有限公司</div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $.ajax({
+                url: 'http://182.92.155.225:8000/v1/guest_ark/area/',
+                type: 'get',
+                success: function (res) {
+                    let html = '';
+                    if (res.result.length && res.result.length > 0) {
+                        for (let i = 0; i < res.result.length; i++) {
+                            html += '<option value="' + res.result[i]['name'] + '">' + res.result[i]['name'] + '</option>'
+                        }
+                        $('.advertise-wrapper .province').append(html)
+                    }
+                }
+            })
+            $('.form-btn').on('click', function () {
+                let name = $('input[name="customerName"]').val(),
+                    phone = $('input[name="customerPhone"]').val(),
+                    company = $('input[name="companyName"]').val(),
+                    province = $('.advertise-wrapper .select').val();
+                    return
+                if (name && phone && company && province) {
+                    if (!(/^1(3|4|5|6|7|8|9)\d{9}$/.test(phone))) {
+                        $('input[name="customerPhone"]').addClass('error').siblings('.error').html('手机号格式错误').show()
+                        return false;
+                    }
+                    $('input[name="customerPhone"]').removeClass('error').siblings('.error').hide()
+                    $.ajax({
+                        url: 'http://182.92.155.225:8000/v1/guest_ark/customer_book/',
+                        type: 'post',
+                        data: {
+                            form_type: 2,
+                            name: name,
+                            mobile: phone,
+                            company: company,
+                            province: province
+                        },
+                        success: function (res) {
+                            alert("预约成功，稍候营销顾问会跟您取得联系");
+                            $('input[name="customerName"]').val('');
+                            $('input[name="customerPhone"]').val('');
+                            $('input[name="companyName"]').val('');
+                            $(".province option:first").prop("selected", 'selected');
+                        }
+                    })
+                } else {
+                    alert('为方便顾问联系到您，请填写完整信息后提交');
+                    return;
+                }
+            });
+        })
+    </script>
 </body>
 
 </html>
