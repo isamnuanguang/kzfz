@@ -315,7 +315,7 @@
 
 @media screen and (min-width: 46.875em) {
     .big-stat-description-block {
-        width: 230px
+        width: 360px
     }
 }
 
@@ -431,7 +431,7 @@
 }
 
 .scaling-resources-grid-item {
-    background-color: rgba(183, 236, 236, 0.25);
+    background-color: #fff0b2;
     border-radius: 5px
 }
 
